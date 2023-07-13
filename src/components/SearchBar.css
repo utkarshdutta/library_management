@@ -1,0 +1,55 @@
+input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50px; /* This will give it a rounded look */
+  outline: none;
+  font-size: 18px;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  box-shadow: 0 0 10px #719ECE;
+}
+.book-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px; 
+    overflow-y: scroll; /* Enable vertical scroll if contents overflow */
+  }
+  
+  .book-card {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+  }
+  
+  .book-image {
+    max-width: 50px;
+    max-height: 70px;
+  }
+  
+  .book-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  .book-title {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .book-author {
+    margin: 0;
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .inputLabel {
+    font-weight: bold;
+    color: white;
+}
